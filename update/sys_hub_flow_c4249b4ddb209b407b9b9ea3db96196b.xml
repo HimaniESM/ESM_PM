@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Updated_1.current","label":"Trigger➛Problem Task Record","reference":"problem_task","reference_display":"Problem Task","type":"reference","base_type":"reference"},{"name":"Updated_1.current.parent","label":"Trigger➛Problem Task Record➛Parent","reference":"task","reference_display":"Parent","type":"reference","base_type":"reference","parent_table_name":"problem_task","column_name":"parent"},{"name":"Updated_1.table_name","label":"Trigger➛Problem Task Table","reference":"problem_task","reference_display":"Problem Task","type":"table_name","base_type":"table_name"},{"name":"b179d301-563d-483e-b1bd-5cfddc9b0c07.Record","label":"2➛Problem Record","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference"},{"name":"6d072e7d-964c-4116-b78b-6485e2a3ccc8.Count","label":"1➛Count","type":"int","base_type":"int"},{"name":"6d072e7d-964c-4116-b78b-6485e2a3ccc8.Records","label":"1➛Problem Task Records","reference":"problem_task","reference_display":"Problem Task","type":"records","base_type":"records"},{"name":"Updated_1.current.problem","label":"Trigger➛Problem Task Record➛Problem","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference","parent_table_name":"problem_task","column_name":"problem"}]</label_cache>
+        <latest_snapshot display_value="Problem task Validation2.0">4feb64b5db24db407b9b9ea3db9619e7</latest_snapshot>
+        <name>Problem task Validation2.0</name>
+        <show_draft_actions>false</show_draft_actions>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-26 12:57:06</sys_created_on>
+        <sys_id>c4249b4ddb209b407b9b9ea3db96196b</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Problem task Validation2.0</sys_name>
+        <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+        <sys_update_name>sys_hub_flow_c4249b4ddb209b407b9b9ea3db96196b</sys_update_name>
+        <sys_updated_by>suganya_nagarajan</sys_updated_by>
+        <sys_updated_on>2018-02-28 08:37:40</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

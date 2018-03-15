@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="RCA Template" max_length="40" name="x_infte_esm_it_pm_rca_template" sizeclass="23" type="collection">
+        <element label="ESM SysID" max_length="100" name="esm_sysid" type="string"/>
+        <element label="Failing Component" max_length="100" name="failing_component" type="string"/>
+        <element label="Failing system" max_length="100" name="failing_system" type="string"/>
+        <element label="Identified Root Cause" max_length="100" name="identified_root_cause" type="string"/>
+        <element label="Impacted Components" max_length="100" name="impacted_components" type="string"/>
+        <element label="RCA Completion Date" max_length="40" name="rca_completion_date" type="glide_date"/>
+        <element label="Recommended Solution" max_length="100" name="recommended_solution" type="string"/>
+        <element label="Solution Implementation Date" max_length="100" name="solution_implementation_date" type="glide_date"/>
+        <element choice="1" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element label="Draft" sequence="1" value="Draft"/>
+                <element label="Work In Progress" sequence="2" value="Work In Progress"/>
+                <element label="Requested" sequence="3" value="Requested"/>
+                <element label="Customer Approval" sequence="4" value="Customer Approval"/>
+                <element label="RCA Approved" sequence="5" value="RCA Approved"/>
+                <element label="Completed" sequence="6" value="Completed"/>
+                <element label="Rejected" sequence="7" value="Rejected"/>
+            </choice>
+        </element>
+        <element choice="3" default="1" label="State" max_length="100" name="state_rca" type="choice">
+            <choice>
+                <element label="Awaiting Approval" value="3"/>
+                <element label="Complete" value="4"/>
+                <element label="In Progress" value="2"/>
+                <element label="New" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>

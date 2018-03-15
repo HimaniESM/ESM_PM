@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="live_feed=true" audit="true" defaultsort="-1" extends="task" label="Problem" max_length="40" name="problem" sizeclass="116" text_index="true" type="collection">
+        <element choice="1" label="Category" max_length="40" name="x_infte_esm_it_pm_category" type="choice">
+            <choice>
+                <element label="Request" sequence="0" value="request"/>
+                <element label="Inquiry / Help" sequence="1" value="inquiry"/>
+                <element label="Software" sequence="2" value="software"/>
+                <element label="Hardware" sequence="3" value="hardware"/>
+                <element label="Network" sequence="4" value="network"/>
+                <element label="Database" sequence="5" value="database"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Failing Component" max_length="40" name="x_infte_esm_it_pm_failing_component" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Failing System" max_length="40" name="x_infte_esm_it_pm_failing_system" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Identified Root Cause" max_length="40" name="x_infte_esm_it_pm_identified_root_cause" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Impacted Components" max_length="40" name="x_infte_esm_it_pm_impacted_components" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Problem Components" max_length="40" name="x_infte_esm_it_pm_problem_components" type="string"/>
+        <element label="Problem Manager" max_length="32" name="x_infte_esm_it_pm_problem_manager" reference="sys_user" reference_qual="roles=x_infte_esm_it_pm.Problem Manager^EQ" reference_qual_condition="roles=x_infte_esm_it_pm.Problem Manager^EQ" type="reference"/>
+        <element label="RCA Completion Date" max_length="40" name="x_infte_esm_it_pm_rca_completion_date" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Recommended Solution" max_length="40" name="x_infte_esm_it_pm_recommended_solution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Resolution Notes" max_length="40" name="x_infte_esm_it_pm_resolution_notes" type="string">
+            <choice>
+                <element label="Problem Fixed" sequence="1" value="1"/>
+                <element label="Problem Deferred" sequence="2" value="2"/>
+                <element label="Cancelled-Duplicate Problem" sequence="3" value="3"/>
+                <element label="Cancelled-Not a Problem" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Root Cause Analysis" max_length="30" name="x_infte_esm_it_pm_root_cause_analysis" type="boolean"/>
+        <element label="Solution Implementation Date" max_length="40" name="x_infte_esm_it_pm_solution_implementation_date" type="glide_date_time"/>
+        <element choice="1" label="Source" max_length="40" name="x_infte_esm_it_pm_source" type="choice">
+            <choice>
+                <element label="Critical Incident" sequence="1" value="Critical Incident"/>
+                <element label="Recurring Incident" sequence="2" value="Recurring Incident"/>
+                <element label="Event Analysis" sequence="3" value="Event Analysis"/>
+                <element label="Proactive Research" sequence="4" value="Proactive Research"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status Reason" max_length="40" name="x_infte_esm_it_pm_status_reason" type="string">
+            <choice>
+                <element label="Awaiting Customer Response" sequence="1" value="0"/>
+                <element label="Awaiting Vendor Response" sequence="2" value="1"/>
+                <element label="Pending Change Request" sequence="3" value="2"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="x_infte_esm_it_pm_category" dependent_on_field="x_infte_esm_it_pm_category" label="Subcategory" max_length="40" name="x_infte_esm_it_pm_subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="inquiry" label="Antivirus" sequence="1" value="antivirus"/>
+                <element dependent_value="hardware" label="CPU" sequence="1" value="cpu"/>
+                <element dependent_value="database" label="DB2" sequence="1" value="db2"/>
+                <element dependent_value="network" label="DHCP" sequence="1" value="dhcp"/>
+                <element dependent_value="software" label="Email" sequence="1" value="email1"/>
+                <element dependent_value="request" label="Password Reset" sequence="1" value="passwordreset"/>
+                <element dependent_value="hardware" label="Disk" sequence="2" value="disk"/>
+                <element dependent_value="network" label="DNS" sequence="2" value="dns"/>
+                <element dependent_value="inquiry" label="Email" sequence="2" value="email"/>
+                <element dependent_value="database" label="MS SQL Server" sequence="2" value="sql"/>
+                <element dependent_value="software" label="Operating System" sequence="2" value="os"/>
+                <element dependent_value="request" label="Password Expired" sequence="2" value="passwordexpire"/>
+                <element dependent_value="request" label="Account Locked" sequence="3" value="acclock"/>
+                <element dependent_value="inquiry" label="Internal Application" sequence="3" value="intaopp"/>
+                <element dependent_value="network" label="IP Address" sequence="3" value="ipadd"/>
+                <element dependent_value="hardware" label="Keyboard" sequence="3" value="keyboard"/>
+                <element dependent_value="database" label="Oracle" sequence="3" value="oracle"/>
+                <element dependent_value="hardware" label="Laptop" sequence="4" value="laptop"/>
+                <element dependent_value="network" label="VPN" sequence="4" value="vpn"/>
+                <element dependent_value="hardware" label="Memory" sequence="5" value="memory"/>
+                <element dependent_value="network" label="Wireless" sequence="5" value="wireless"/>
+                <element dependent_value="hardware" label="Mobile/Cell Phones" sequence="6" value="mobile"/>
+                <element dependent_value="hardware" label="Monitor" sequence="7" value="monitor"/>
+                <element dependent_value="hardware" label="Mouse" sequence="8" value="mouse"/>
+            </choice>
+        </element>
+        <element label="Task Validation" max_length="40" name="x_infte_esm_it_pm_task_validation" type="boolean"/>
+    </element>
+</database>

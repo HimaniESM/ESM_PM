@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="x_infte_esm_it_pm_root_cause_analysis" label="Root Cause Analysis" language="en" table="problem">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_pm_root_cause_analysis</element>
+            <help/>
+            <hint/>
+            <label>Root Cause Analysis</label>
+            <language>en</language>
+            <name>problem</name>
+            <plural>Root Cause Analysis</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 10:44:47</sys_created_on>
+            <sys_id>c2f87257db64d700fbaa7d668c96197f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Root Cause Analysis</sys_name>
+            <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+            <sys_update_name>sys_documentation_problem_x_infte_esm_it_pm_root_cause_analysis_en</sys_update_name>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 10:44:47</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

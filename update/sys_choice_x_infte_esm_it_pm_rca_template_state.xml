@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_infte_esm_it_pm_rca_template" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_infte_esm_it_pm_rca_template</name>
+            <sequence>0</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-15 06:08:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac99ddaedb38170003a29ea3db96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-15 06:08:30</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_infte_esm_it_pm_rca_template</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-15 06:08:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34b951eedb38170003a29ea3db961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-15 06:08:48</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting Approval</label>
+            <language>en</language>
+            <name>x_infte_esm_it_pm_rca_template</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-15 06:04:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>97b8d1aedb38170003a29ea3db9619b2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-15 06:10:33</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_infte_esm_it_pm_rca_template</name>
+            <sequence>3</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-15 06:09:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f0d9d1eedb38170003a29ea3db961980</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-15 06:10:36</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_infte_esm_it_pm_rca_template</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-15 06:04:49</sys_created_on>
+            <sys_id>2ec8d1aedb38170003a29ea3db9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+            <sys_update_name>sys_choice_x_infte_esm_it_pm_rca_template_state</sys_update_name>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-15 06:04:49</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

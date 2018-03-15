@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_infte_esm_it_pm_source" table="problem" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_pm_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Critical Incident</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-02-28 09:39:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5cf9b8bddb24db407b9b9ea3db961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:39:11</sys_updated_on>
+            <value>Critical Incident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_pm_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recurring Incident</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-02-28 09:39:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>701afcbddb24db407b9b9ea3db961950</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:39:29</sys_updated_on>
+            <value>Recurring Incident</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_pm_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Event Analysis</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-02-28 09:39:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>771a78bddb24db407b9b9ea3db9619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:39:41</sys_updated_on>
+            <value>Event Analysis</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>x_infte_esm_it_pm_source</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proactive Research</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>4</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-02-28 09:39:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>be2a38bddb24db407b9b9ea3db9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:39:54</sys_updated_on>
+            <value>Proactive Research</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_pm_source</element>
+            <name>problem</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-02-28 09:39:11</sys_created_on>
+            <sys_id>d40afcbddb24db407b9b9ea3db96194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_infte_esm_it_pm_source</sys_name>
+            <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+            <sys_update_name>sys_choice_problem_x_infte_esm_it_pm_source</sys_update_name>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-02-28 09:39:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

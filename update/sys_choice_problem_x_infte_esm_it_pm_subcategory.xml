@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="x_infte_esm_it_pm_subcategory" table="problem" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Antivirus</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:55:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5acfd693db24d700fbaa7d668c961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:55:26</sys_updated_on>
+            <value>antivirus</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPU</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:59:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7d0e2d3db24d700fbaa7d668c961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:59:27</sys_updated_on>
+            <value>cpu</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>database</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DB2</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:05:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9622a217db24d700fbaa7d668c9619f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:05:08</sys_updated_on>
+            <value>db2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DHCP</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:03:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c3b1aed3db24d700fbaa7d668c9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:03:17</sys_updated_on>
+            <value>dhcp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:58:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2a0a2d3db24d700fbaa7d668c961908</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:58:37</sys_updated_on>
+            <value>email1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>request</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Password Reset</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:51:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73aeda53db24d700fbaa7d668c96197e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:51:00</sys_updated_on>
+            <value>passwordreset</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disk</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:59:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73e066d3db24d700fbaa7d668c961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:59:46</sys_updated_on>
+            <value>disk</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DNS</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:03:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ccd16ed3db24d700fbaa7d668c961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:03:37</sys_updated_on>
+            <value>dns</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Email</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:57:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>df702e93db24d700fbaa7d668c961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:57:50</sys_updated_on>
+            <value>email</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>software</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Operating System</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:58:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8cc022d3db24d700fbaa7d668c961907</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:58:59</sys_updated_on>
+            <value>os</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>request</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Password Expired</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:52:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b23f1293db24d700fbaa7d668c961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:52:20</sys_updated_on>
+            <value>passwordexpire</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>database</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MS SQL Server</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:05:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a232a217db24d700fbaa7d668c9619fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:05:25</sys_updated_on>
+            <value>sql</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>request</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Account Locked</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:52:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>055f1293db24d700fbaa7d668c9619dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:52:45</sys_updated_on>
+            <value>acclock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>inquiry</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internal Application</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8890ee93db24d700fbaa7d668c9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:58:09</sys_updated_on>
+            <value>intaopp</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IP Address</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:03:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f4e12217db24d700fbaa7d668c9619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:03:57</sys_updated_on>
+            <value>ipadd</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keyboard</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:01:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35312ad3db24d700fbaa7d668c9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:01:00</sys_updated_on>
+            <value>keyboard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>database</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oracle</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:05:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d42a217db24d700fbaa7d668c9619fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:05:38</sys_updated_on>
+            <value>oracle</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>4</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:01:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>92412ad3db24d700fbaa7d668c9619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:01:19</sys_updated_on>
+            <value>laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VPN</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>4</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:04:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bf16217db24d700fbaa7d668c961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:04:23</sys_updated_on>
+            <value>vpn</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Memory</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>5</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:01:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fd512ed3db24d700fbaa7d668c96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:01:33</sys_updated_on>
+            <value>memory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>network</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wireless</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>5</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:04:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b412a217db24d700fbaa7d668c96192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:04:45</sys_updated_on>
+            <value>wireless</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mobile/Cell Phones</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>6</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:01:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36612ed3db24d700fbaa7d668c96193b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:01:53</sys_updated_on>
+            <value>mobile</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monitor</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>7</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:02:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56712ed3db24d700fbaa7d668c961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:02:08</sys_updated_on>
+            <value>monitor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>hardware</dependent_value>
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mouse</label>
+            <language>en</language>
+            <name>problem</name>
+            <sequence>8</sequence>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 09:02:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6816ed3db24d700fbaa7d668c9619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 09:02:24</sys_updated_on>
+            <value>mouse</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_pm_subcategory</element>
+            <name>problem</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>suganya_nagarajan</sys_created_by>
+            <sys_created_on>2018-03-05 08:51:00</sys_created_on>
+            <sys_id>c7ee5e53db24d700fbaa7d668c961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_infte_esm_it_pm_subcategory</sys_name>
+            <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+            <sys_update_name>sys_choice_problem_x_infte_esm_it_pm_subcategory</sys_update_name>
+            <sys_updated_by>suganya_nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-05 08:51:00</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

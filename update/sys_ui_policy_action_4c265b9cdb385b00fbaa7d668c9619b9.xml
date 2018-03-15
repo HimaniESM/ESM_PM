@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>rca_completion_date</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>suganya_nagarajan</sys_created_by>
+        <sys_created_on>2018-03-08 15:26:05</sys_created_on>
+        <sys_id>4c265b9cdb385b00fbaa7d668c9619b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>rca_completion_date</sys_name>
+        <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4c265b9cdb385b00fbaa7d668c9619b9</sys_update_name>
+        <sys_updated_by>suganya_nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-08 15:26:05</sys_updated_on>
+        <table>x_infte_esm_it_pm_rca_template</table>
+        <ui_policy display_value="Make fields ReadOnly">649d0b98db385b00fbaa7d668c961974</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

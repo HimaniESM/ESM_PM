@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"9b88193b-ea3d-4327-a9ef-67d1df7bd6f1.Record","label":"2➛Problem Record","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference"},{"name":"53d4d576-5709-4a64-bef1-7c2632640a67.Table","label":"1➛RCA Template Table","reference":"x_infte_esm_it_pm_rca_template","reference_display":"RCA Template Table"},{"name":"53d4d576-5709-4a64-bef1-7c2632640a67.Records","label":"1➛RCA Template Records","reference":"x_infte_esm_it_pm_rca_template","reference_display":"RCA Template Records"},{"name":"Updated_1.current.parent","label":"Trigger➛RCA Template Record➛Parent","reference":"task","reference_display":"Parent","type":"reference","base_type":"reference","parent_table_name":"x_infte_esm_it_pm_rca_template","column_name":"parent"},{"name":"53d4d576-5709-4a64-bef1-7c2632640a67.Count","label":"1➛Count","type":"int","base_type":"int"},{"name":"Updated_1.current","label":"Trigger➛RCA Template Record","reference":"x_infte_esm_it_pm_rca_template","reference_display":"RCA Template","type":"reference","base_type":"reference"}]</label_cache>
+        <name>RCA Template Validation 2.0</name>
+        <parent_flow display_value="RCA Template Validation 2.0">37320bdbdb64d700fbaa7d668c9619c2</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>suganya_nagarajan</sys_created_by>
+        <sys_created_on>2018-03-14 10:36:42</sys_created_on>
+        <sys_id>276d0552db30170003a29ea3db9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RCA Template Validation 2.0</sys_name>
+        <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_276d0552db30170003a29ea3db9619e1</sys_update_name>
+        <sys_updated_by>suganya_nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-14 10:36:42</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

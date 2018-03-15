@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description> email template of PM notification</description>
+        <layout><![CDATA[<p></p>
+<table height="5" style="width: 725px; background-color: #1182f2;">
+<tbody>
+<tr>
+<td><img src="esm-inverse-logo.pngx" vspace="" hspace="" border="" align="right" alt="" title="" width="150" height="30" style="align: right;" /></td>
+</tr>
+</tbody>
+</table>
+<table width="725" height="9" style="background-color: #a3a2a2; height: 21px;">
+<tbody>
+<tr>
+<td>${mail_script:esm_subject}</td>
+</tr>
+</tbody>
+</table>
+<p>${notification:body}</p>
+<p><strong><span style="text-decoration-line: underline;">Problem Summary :</span></strong></p>
+<p>Priority: ${priority}<br />Assigned to: ${assigned_to}<br />Assignment group: ${assignment_group}<br />Configuration Item: ${cmdb_ci}<br />Short Description: ${short_description}<br /><br /><strong><span style="text-decoration-line: underline;">Quick Links :</span></strong></p>
+<p>To reset your password,&nbsp;<span style="color: #ff9900;"><em><a title="CLICK HERE" href="https://infosysdemosvs2.service-now.com/nav_to.do?uri=/$pwd_change.do" target="_blank" style="color: #ff9900;">CLICK HERE</a></em></span><br />To check all opened problems,<span style="color: #ff9900;"><em><a title="CLICK HERE" href="https://infosysdemosvs2.service-now.com/nav_to.do?uri=/problem_list.do%3Fsysparm_userpref_module%3Db56200fbc0a8000900ae7b77db247697%26sysparm_query%3Dstate%3D1%5EEQ%26sysparm_clear_stack%3Dtrue" style="color: #ff9900;">CLICK HERE</a></em></span></p>
+<p><strong>Regards,<br />Problem Management Team</strong></p>
+<hr style="width: 725px; float: left;" />
+<p></p>
+<table width="725" height="65" style="background-color: #1b7ee0; height: 38px;">
+<tbody>
+<tr>
+<td>
+<p><span style="color: #ffffff;">For any query please contact to Service Desk :9999 999 999</span></p>
+<p><span style="color: #ffffff;">This is an automated message. Please do not reply.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>${NOTIF_UNSUB} &nbsp;| ${NOTIF_PREFS}</p>
+<p></p>]]></layout>
+        <name>esm_pm_email_layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>Manjeet_Kumar</sys_created_by>
+        <sys_created_on>2018-03-05 06:14:08</sys_created_on>
+        <sys_id>a0f839d7db689f407b9b9ea3db96197b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>esm_pm_email_layout</sys_name>
+        <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+        <sys_update_name>sys_email_layout_a0f839d7db689f407b9b9ea3db96197b</sys_update_name>
+        <sys_updated_by>Manjeet_Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-05 06:52:00</sys_updated_on>
+    </sys_email_layout>
+</record_update>

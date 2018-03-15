@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Problem task should be closed before closing the problem</description>
+        <label_cache>[{"name":"Created_1.current.parent","label":"Trigger➛Problem Task Record➛Parent","reference":"task","reference_display":"Parent","type":"reference","base_type":"reference","parent_table_name":"problem_task","column_name":"parent"},{"name":"Updated_1.current.sys_id","label":"Trigger➛Problem Record➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"problem","column_name":"sys_id"},{"name":"2ab7d9a0-5c2e-4fc2-9331-bd8e69cfc368.Records","label":"1➛Problem Records","reference":"problem","reference_display":"Problem Records"},{"name":"2ab7d9a0-5c2e-4fc2-9331-bd8e69cfc368.Table","label":"1➛Problem Table","reference":"problem","reference_display":"Problem Table"},{"name":"2ab7d9a0-5c2e-4fc2-9331-bd8e69cfc368.Count","label":"1➛Count","reference_display":"Count"},{"name":"Updated_1.current","label":"Trigger➛Problem Record","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference"},{"name":"9a4d99f3-f153-4058-be47-85f498807a49.record","label":"2.1➛Problem Record","reference":"problem","reference_display":"Problem Record"},{"name":"9a4d99f3-f153-4058-be47-85f498807a49.table_name","label":"2.1➛Problem Table","reference":"problem","reference_display":"Problem Table"},{"name":"Created_1.current.problem","label":"Trigger➛Problem Task Record➛Problem","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference","parent_table_name":"problem_task","column_name":"problem"},{"name":"3b1c51c3-4221-4e08-8a99-aa503133d156.record","label":"2➛Problem Record","reference":"problem","reference_display":"Problem Record"},{"name":"3b1c51c3-4221-4e08-8a99-aa503133d156.table_name","label":"2➛Problem Table","reference":"problem","reference_display":"Problem Table"},{"name":"b59aae70-26d0-421e-8756-6d5a015b37fd.Record","label":"1➛Problem Record","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference"}]</label_cache>
+        <latest_snapshot display_value="Problem task close validation">397bd07ddbe0db407b9b9ea3db9619aa</latest_snapshot>
+        <name>Problem task close validation</name>
+        <show_draft_actions>false</show_draft_actions>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>sushil</sys_created_by>
+        <sys_created_on>2018-02-26 12:06:30</sys_created_on>
+        <sys_id>fa884345db209b407b9b9ea3db961989</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Problem task close validation</sys_name>
+        <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+        <sys_update_name>sys_hub_flow_fa884345db209b407b9b9ea3db961989</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-28 07:25:46</sys_updated_on>
+    </sys_hub_flow>
+</record_update>

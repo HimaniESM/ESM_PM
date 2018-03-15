@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_state_model">
+    <sys_state_model action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <description/>
+        <global_exit_condition/>
+        <name>RCA State Model</name>
+        <order/>
+        <sys_class_name>sys_state_model</sys_class_name>
+        <sys_created_by>suganya_nagarajan</sys_created_by>
+        <sys_created_on>2018-03-15 08:10:43</sys_created_on>
+        <sys_id>82512966db78170003a29ea3db961990</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>RCA State Model</sys_name>
+        <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+        <sys_update_name>sys_state_model_82512966db78170003a29ea3db961990</sys_update_name>
+        <sys_updated_by>suganya_nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-15 16:26:02</sys_updated_on>
+        <table>x_infte_esm_it_pm_rca_template</table>
+    </sys_state_model>
+</record_update>

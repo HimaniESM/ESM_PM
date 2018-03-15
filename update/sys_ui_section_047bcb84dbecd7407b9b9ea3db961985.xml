@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Closure Information" section_id="047bcb84dbecd7407b9b9ea3db961985" sys_domain="global" table="problem" version="3" view="esm_itil">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_at</element>
+            <position>0</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-02-27 08:18:07</sys_created_on>
+            <sys_id>1fdd5315db689b407b9b9ea3db96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="ce713a3ddbff83007b9b9ea3db9619b0">047bcb84dbecd7407b9b9ea3db961985</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-02-27 08:18:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>closed_by</element>
+            <position>1</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-02-27 08:18:07</sys_created_on>
+            <sys_id>93dd5315db689b407b9b9ea3db96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="ce713a3ddbff83007b9b9ea3db9619b0">047bcb84dbecd7407b9b9ea3db961985</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-02-27 08:18:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-02-27 08:18:07</sys_created_on>
+            <sys_id>17dd5315db689b407b9b9ea3db96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="ce713a3ddbff83007b9b9ea3db9619b0">047bcb84dbecd7407b9b9ea3db961985</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-02-27 08:18:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_infte_esm_it_pm_resolution_notes</element>
+            <position>3</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-02-27 08:18:07</sys_created_on>
+            <sys_id>97dd5315db689b407b9b9ea3db96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="ce713a3ddbff83007b9b9ea3db9619b0">047bcb84dbecd7407b9b9ea3db961985</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-02-27 08:18:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>close_notes</element>
+            <position>4</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-02-27 08:18:07</sys_created_on>
+            <sys_id>1bdd5315db689b407b9b9ea3db96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="ce713a3ddbff83007b9b9ea3db9619b0">047bcb84dbecd7407b9b9ea3db961985</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-02-27 08:18:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <position>5</position>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-02-27 08:18:07</sys_created_on>
+            <sys_id>9bdd5315db689b407b9b9ea3db96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Closure Information" display_value="Closure Information" name="problem" sys_domain="global" view="ce713a3ddbff83007b9b9ea3db9619b0">047bcb84dbecd7407b9b9ea3db961985</sys_ui_section>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-02-27 08:18:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Closure Information</caption>
+            <header>false</header>
+            <name>problem</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sushil</sys_created_by>
+            <sys_created_on>2018-02-23 09:45:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>047bcb84dbecd7407b9b9ea3db961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Closure Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="esm_it_pm" source="x_infte_esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_it_pm">4ea74704dbecd7407b9b9ea3db961937</sys_scope>
+            <sys_update_name>sys_ui_section_047bcb84dbecd7407b9b9ea3db961985</sys_update_name>
+            <sys_updated_by>sushil</sys_updated_by>
+            <sys_updated_on>2018-02-23 09:45:13</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ESM_ITIL" name="esm_itil">ce713a3ddbff83007b9b9ea3db9619b0</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
